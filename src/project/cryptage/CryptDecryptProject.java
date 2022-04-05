@@ -15,7 +15,7 @@ public class CryptDecryptProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String str = "7ama 8rab";
+        String str = "malek";
         Crypt c = new Crypt();
         System.out.println(str + " est le mot initial");
         String cryptedword = c.Encryption(str);
