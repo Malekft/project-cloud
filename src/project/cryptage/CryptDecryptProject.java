@@ -9,14 +9,14 @@ package project.cryptage;
  *
  * @author malek
  */
-public class ProjectCryptage {
+public class CryptDecryptProject {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         String str = "7ama 8rab";
-        Cryptage_Decryptage c = new Cryptage_Decryptage();
+        Crypt c = new Crypt();
         System.out.println(str + " est le mot initial");
         String cryptedword = c.Encryption(str);
         System.out.println(" codage :" + cryptedword);
