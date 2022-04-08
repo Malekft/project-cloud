@@ -15,13 +15,13 @@ public class CryptDecryptProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String str = "malek";
+        String motinital = "malek";
         Crypt c = new Crypt();
-        System.out.println(str + " est le mot initial");
-        String cryptedword = c.Encryption(str);
+        System.out.println(motinital + " est le mot initial");
+        String cryptedword = c.Encryption(motinital);
         System.out.println(" codage :" + cryptedword);
         String decryption = c.Decryprion(cryptedword);
-        System.out.println("dÃ©codage du mot cryptÃ© " + decryption);
+        System.out.println("decodage du mot crypté " + decryption);
     }
     
 }
